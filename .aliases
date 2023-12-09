@@ -1,0 +1,1 @@
+alias download_mp3='cd ~/Music/Transcribing && youtube-dl -x --audio-format mp3'
