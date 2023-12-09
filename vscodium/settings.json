@@ -1,0 +1,15 @@
+{
+  "workbench.colorTheme": "Dracula",
+  "git.autofetch": true,
+  "files.insertFinalNewline": true,
+  "sync.gist": "fba20a6c8ea3f695698d4ff52da3d6b9",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "git.confirmSync": false,
+  "explorer.confirmDelete": false,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
