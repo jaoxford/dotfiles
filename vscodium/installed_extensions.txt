@@ -1,9 +1,0 @@
-auto close tag
-auto rename tag
-dracula official
-eslilnt
-indent rainbow
-material icon theems
-python
-rainbow csv
-tailwind css
