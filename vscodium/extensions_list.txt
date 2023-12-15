@@ -6,6 +6,5 @@ formulahendry.auto-close-tag
 formulahendry.auto-rename-tag
 mechatroner.rainbow-csv
 ms-python.python
-oderwat.indent-rainbow
 PKief.material-icon-theme
 timonwong.shellcheck
