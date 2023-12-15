@@ -17,5 +17,5 @@
     "[javascriptreact]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "workbench.colorTheme": "Dracula",
+    "workbench.colorTheme": "Dracula"
 }
