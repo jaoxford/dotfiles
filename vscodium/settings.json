@@ -3,6 +3,8 @@
     "editor.codeActionsOnSave": {
         "source.organizeImports": true,
     },
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
     "explorer.confirmDelete": false,
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
