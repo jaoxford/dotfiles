@@ -18,6 +18,9 @@ defaults write NSGlobalDomain AppleShowScrollBars -string "Always"
 # Automatically hide and show the Dock
 defaults write com.apple.dock autohide -bool "true"
 
+# Enable dragging with three finger drag
+defaults write com.apple.AppleMultitouchTrackpad TrackpadThreeFingerDrag -bool "true"
+
 # Disable press-and-hold for keys in favor of key repeat
 defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool "false"
 
