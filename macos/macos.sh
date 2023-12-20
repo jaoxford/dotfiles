@@ -27,6 +27,9 @@ defaults write NSGlobalDomain AppleShowAllExtensions -bool "true"
 # Finder: show hidden files
 defaults write com.apple.finder AppleShowAllFiles -bool "true"
 
+# Set the default search scope to current folder.
+defaults write com.apple.finder FXDefaultSearchScope -bool "true"
+
 # Finder: show status bar
 defaults write com.apple.finder ShowStatusBar -bool "true"
 
