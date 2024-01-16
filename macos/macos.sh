@@ -39,6 +39,9 @@ defaults write com.apple.finder FXDefaultSearchScope -bool "true"
 # Finder: show status bar
 defaults write com.apple.finder ShowStatusBar -bool "true"
 
+# Finder: show path bar
+defaults write com.apple.finder "ShowPathbar" -bool "false"
+
 ###############################################################################
 # Kill affected applications                                                  #
 ###############################################################################
