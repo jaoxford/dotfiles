@@ -18,6 +18,9 @@ defaults write NSGlobalDomain AppleShowScrollBars -string "Always"
 # Automatically hide and show the Dock
 defaults write com.apple.dock autohide -bool "true"
 
+# Do not show recent applications in the dock
+defaults write com.apple.dock "show-recents" -bool "false"
+
 # Enable dragging with three finger drag
 defaults write com.apple.AppleMultitouchTrackpad TrackpadThreeFingerDrag -bool "true"
 
