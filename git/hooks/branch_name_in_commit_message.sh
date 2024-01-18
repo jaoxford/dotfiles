@@ -16,13 +16,13 @@ BRANCH_NAME="${BRANCH_NAME##*/}"
 # Check if the current branch is in the list of branches to skip
 BRANCH_EXCLUDED=$(printf "%s\n" "${BRANCHES_TO_SKIP[@]}" | grep -c "^$BRANCH_NAME$")
 # Check if the commit message already contains the branch name
-BRANCH_IN_COMMIT=$(grep -c "\[$BRANCH_NAME\]" $1)
+BRANCH_IN_COMMIT=$(grep -c "\[$BRANCH_NAME\]" "$1")
 
 # If on a relevant branch and the branch name is not already in the commit message,
 # prepend the branch name to the commit message.
 if [ -n "$BRANCH_NAME" ] && ! [[ $BRANCH_EXCLUDED -eq 1 ]] && ! [[ $BRANCH_IN_COMMIT -ge 1 ]]; then
   # Prepend the branch name to the commit message
-  sed -i.bak -e "1s/^/$BRANCH_NAME - /" $1
+  sed -i.bak -e "1s/^/$BRANCH_NAME: /" "$1"
 fi
 
 # Note:
