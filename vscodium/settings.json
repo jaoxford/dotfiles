@@ -1,9 +1,10 @@
 {
     "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
-        "source.organizeImports": true,
+        "source.organizeImports": "explicit"
     },
     "editor.bracketPairColorization.enabled": true,
+    "editor.minimap.renderCharacters": false,
     "editor.guides.bracketPairs": "active",
     "explorer.confirmDelete": false,
     "files.insertFinalNewline": true,
