@@ -1,1 +1,4 @@
+#!/bin/bash
+
 alias download_mp3='cd ~/Music/Transcribing && yt-dlp -x --audio-format mp3 --audio quality 0'
+alias delete_merged_branches='git branch --merged| grep -Ev "(^\*|master|main|dev|skip_branch_name)" |  xargs git branch -d'
