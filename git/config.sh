@@ -7,3 +7,5 @@ git config --global branch.sort -comitterdate
 git config gpg.format ssh
 # Location of SSH key for signing
 git config user.signingkey ~/.ssh/id_ed25519.pub
+# Automatically run git maintenance
+git maintenance start
