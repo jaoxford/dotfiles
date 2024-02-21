@@ -1,5 +1,7 @@
 #!/bin/bash
 
+git config --global user.name "Jacob Oxford"
+git config --global user.name "jacoboxford12345@gmail.com"
 git config --global alias.ll 'log --oneline'
 git config --global alias.p 'push'
 git config --global alias.pf 'push --force'
