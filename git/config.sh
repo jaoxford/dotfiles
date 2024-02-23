@@ -2,7 +2,7 @@
 # Tries to automatically apply same changes done during rebase / cherry pick
 git config --global rerere.enabled true
 # Sort branches by latest commits at top
-git config --global branch.sort -comitterdate
+git config --global branch.sort -committerdate
 # Sign commits by SSH rather than GPG
 git config gpg.format ssh
 # Location of SSH key for signing
