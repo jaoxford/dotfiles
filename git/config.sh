@@ -1,4 +1,7 @@
 #!/bin/bash
+git config --global user.name "Jacob Oxford"
+git config --global user.email "jacoboxford12345@gmail.com"
+
 # Tries to automatically apply same changes done during rebase / cherry pick
 git config --global rerere.enabled true
 # Sort branches by latest commits at top
