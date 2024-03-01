@@ -1,8 +1,8 @@
 source $HOME/.aliases
 
 start-fullpush() {
-  open -a "Brave"
+  open -a "Brave Browser"
   open -a "Docker"
   open -a "VSCodium"
-  open -a "Intellij CE"
+  open -a "Intellij IDEA CE"
 }
