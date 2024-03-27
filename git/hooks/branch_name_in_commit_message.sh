@@ -18,9 +18,17 @@ BRANCH_EXCLUDED=$(printf "%s\n" "${BRANCHES_TO_SKIP[@]}" | grep -c "^$BRANCH_NAM
 # Check if the commit message already contains the branch name
 BRANCH_IN_COMMIT=$(grep -c "\[$BRANCH_NAME\]" "$1")
 
-# If on a relevant branch and the branch name is not already in the commit message,
+# Check if the commit is a fixup commit
+COMMIT_MESSAGE=$(head -n1 "$1")
+if [[ "$COMMIT_MESSAGE" =~ ^fixup\! ]]; then
+  FIXUP_COMMIT=1
+else
+  FIXUP_COMMIT=0
+fi
+
+# If on a relevant branch, the branch name is not already in the commit message, and it's not a fixup commit,
 # prepend the branch name to the commit message.
-if [ -n "$BRANCH_NAME" ] && ! [[ $BRANCH_EXCLUDED -eq 1 ]] && ! [[ $BRANCH_IN_COMMIT -ge 1 ]]; then
+if [ -n "$BRANCH_NAME" ] && ! [[ $BRANCH_EXCLUDED -eq 1 ]] && ! [[ $BRANCH_IN_COMMIT -ge 1 ]] && [[ $FIXUP_COMMIT -eq 0 ]]; then
   # Prepend the branch name to the commit message
   sed -i.bak -e "1s/^/$BRANCH_NAME: /" "$1"
 fi
