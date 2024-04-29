@@ -1,4 +1,5 @@
 #!/bin/bash
-
-brew install --cask vscodium
 brew install figlet
+brew install neovim
+brew install --cask vscodium
+brew install yt-dlp
