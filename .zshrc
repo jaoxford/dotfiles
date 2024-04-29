@@ -7,4 +7,5 @@ start-fullpush() {
   open -a "Docker"
   open -a "VSCodium"
   open -a "Intellij IDEA CE"
+  tmuxinator start fullpush
 }
