@@ -14,3 +14,5 @@ git config gpg.format ssh
 git config user.signingkey ~/.ssh/id_ed25519.pub
 # Automatically run git maintenance
 git maintenance start
+# Set default editor to neovim
+git config --global core.editor "nvim"
