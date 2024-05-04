@@ -2,13 +2,11 @@
 
 A sensible place for different things related to my setup
 
-## Installing aliases
+## Installing via script
 
-Firstly you'll need to copy the `.aliases` file to the root directory
+There is a bootstrap script in the root directory of this repository: `bootstrap.sh`
 
-```shell
-cp ~/Projects/dotfiles/.aliases ~/.aliases
-```
+## Installing Manually
 
 Then copy the contents of the `.zshrc` file from this directory to the home directory's `.zshrc` file
 
@@ -16,6 +14,6 @@ Then copy the contents of the `.zshrc` file from this directory to the home dire
 cp ~/Projects/dotfiles/.zshrc ~/.zshrc
 ```
 
-## Installing homebrew packages
+### Installing homebrew packages
 
 You'll need to run the `./macos/brew.sh` file to install the homebrew packages.
