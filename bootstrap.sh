@@ -9,6 +9,8 @@ cat "$DOTFILES_DIRECTORY/.zshrc" >> "$HOME/.zshrc"
 
 if [[ "$OSTYPE" == "darwin"* ]]; then
     echo "Running macOS specific setup"
+    echo "Installing homebrew"
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     "$DOTFILES_DIRECTORY/macos/macos.sh"
     "$DOTFILES_DIRECTORY/macos/brew.sh"
 fi
