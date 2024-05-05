@@ -6,3 +6,4 @@ brew install yt-dlp
 brew install --cask brave-browser
 brew install --cask firefox
 brew install --cask rectangle
+brew install --cask vlc
