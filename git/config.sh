@@ -16,3 +16,5 @@ git config user.signingkey ~/.ssh/id_ed25519.pub
 git maintenance start
 # Set default editor to neovim
 git config --global core.editor "nvim"
+# Automatically push to branch of same name with 'git push'
+git config --global push.autoSetupRemote true
