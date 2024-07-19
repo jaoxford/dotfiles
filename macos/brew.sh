@@ -8,3 +8,5 @@ brew install --cask firefox
 brew install --cask rectangle
 brew install --cask vlc
 brew install bat
+brew install --cask pycharm-ce
+brew install tree
