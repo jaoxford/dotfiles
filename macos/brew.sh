@@ -10,3 +10,4 @@ brew install --cask vlc
 brew install bat
 brew install --cask pycharm-ce
 brew install tree
+brew install --cask whatsapp
