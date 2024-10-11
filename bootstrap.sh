@@ -7,6 +7,9 @@ cp "$DOTFILES_DIRECTORY/.aliases" "$HOME/.aliases"
 echo "Appending zshrc to $HOME/.zshrc"
 cat "$DOTFILES_DIRECTORY/.zshrc" >> "$HOME/.zshrc"
 
+echo "Copying gitignore from $DOTFILES_DIRECTORY/git/global_gitignore to $HOME/.gitignore"
+cp "$DOTFILES_DIRECTORY/git/global_gitignore" "$HOME/.gitignore"
+
 if [[ "$OSTYPE" == "darwin"* ]]; then
     echo "Running macOS specific setup"
     echo "Installing homebrew"

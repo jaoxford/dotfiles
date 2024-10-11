@@ -18,3 +18,5 @@ git maintenance start
 git config --global core.editor "nvim"
 # Automatically push to branch of same name with 'git push'
 git config --global push.autoSetupRemote true
+# Global gitignore
+git config --global core.excludesFile "$HOME/.gitignore"
