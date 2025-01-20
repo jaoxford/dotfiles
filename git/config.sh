@@ -20,3 +20,5 @@ git config --global core.editor "nvim"
 git config --global push.autoSetupRemote true
 # Global gitignore
 git config --global core.excludesFile "$HOME/.gitignore"
+# Prompt when wrong git command typed
+git config --global help.autocorrect prompt
