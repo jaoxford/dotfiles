@@ -12,3 +12,4 @@ brew install --cask pycharm-ce
 brew install tree
 brew install --cask whatsapp
 brew install --cask spotify
+brew install tmux
