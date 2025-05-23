@@ -13,3 +13,4 @@ brew install tree
 brew install --cask whatsapp
 brew install --cask spotify
 brew install tmux
+brew install ripgrep
