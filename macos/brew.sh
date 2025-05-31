@@ -14,3 +14,4 @@ brew install --cask whatsapp
 brew install --cask spotify
 brew install tmux
 brew install ripgrep
+brew install --cask flameshot
