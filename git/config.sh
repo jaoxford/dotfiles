@@ -9,7 +9,7 @@ git config --global column.ui auto
 # Sort branches by latest commits at top
 git config --global branch.sort -committerdate
 # Sign commits by SSH rather than GPG
-git config gpg.format ssh
+git config gpg.format openpgp
 # Location of SSH key for signing
 git config user.signingkey ~/.ssh/id_ed25519.pub
 # Automatically run git maintenance
