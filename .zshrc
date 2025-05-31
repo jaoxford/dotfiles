@@ -14,5 +14,7 @@ create_commented_banner() {
 
 create_commented_banner_for_windows() {
   local text="$1"
+  echo "::"
   figlet "$text" | sed 's/^/:: /'  # Prefix each line with ':: ' for batch comments
+  echo "::"
 }
