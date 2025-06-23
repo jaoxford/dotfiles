@@ -15,3 +15,4 @@ brew install --cask spotify
 brew install tmux
 brew install ripgrep
 brew install --cask flameshot
+brew install speedtest-cli
