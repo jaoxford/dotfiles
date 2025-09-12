@@ -16,3 +16,4 @@ brew install tmux
 brew install ripgrep
 brew install --cask flameshot
 brew install speedtest-cli
+brew install --cask maccy
