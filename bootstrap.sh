@@ -22,7 +22,7 @@ echo "Setting up git"
 "$DOTFILES_DIRECTORY/git/aliases.sh"
 "$DOTFILES_DIRECTORY/git/config.sh"
 
-echo "Copying tmux config to $HOME/.config/tmux/tmux.conf."
-mkdir -p "$HOME/.config/tmux" && cp "$DOTFILES_DIRECTORY/tmux/.tmux.conf" "$HOME/.config/tmux/tmux.conf"
+# echo "Copying tmux config to $HOME/.config/tmux/tmux.conf."
+# mkdir -p "$HOME/.config/tmux" && cp "$DOTFILES_DIRECTORY/tmux/.tmux.conf" "$HOME/.config/tmux/tmux.conf"
 
 echo "Finished"
