@@ -8,7 +8,8 @@ sudo pacman -Syu --needed --noconfirm \
     telegram-desktop \
     pycharm-community-edition \
     code \
-    uv
+    uv \
+    claude-code
 
 echo ""
 echo "After first launching PyCharm, add this to Help → Edit Custom VM Options:"
