@@ -7,7 +7,8 @@ sudo pacman -Syu --needed --noconfirm \
     speedtest-cli \
     telegram-desktop \
     pycharm-community-edition \
-    code
+    code \
+    uv
 
 echo ""
 echo "After first launching PyCharm, add this to Help → Edit Custom VM Options:"
