@@ -1,4 +1,10 @@
 #!/bin/bash
+
+if ! which brew &> /dev/null; then
+    echo "Installing homebrew"
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+fi
+
 brew install figlet
 brew install neovim
 brew install --cask vscodium

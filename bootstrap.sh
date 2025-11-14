@@ -15,8 +15,6 @@ cp "$DOTFILES_DIRECTORY/git/global_gitignore" "$HOME/.gitignore"
 
 if [[ "$OSTYPE" == "darwin"* ]]; then
     echo "Running macOS specific setup"
-    echo "Installing homebrew"
-    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     "$DOTFILES_DIRECTORY/macos/macos.sh"
     "$DOTFILES_DIRECTORY/macos/brew.sh"
 fi
