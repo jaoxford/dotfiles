@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e  # Exit on error
+
 echo "Setting up Omarchy..."
 
 echo "Updating system and installing packages from official repos..."

@@ -1,4 +1,7 @@
 #!/bin/bash
+
+set -e  # Exit on error
+
 DOTFILES_DIRECTORY="$HOME/Projects/dotfiles"
 export DOTFILES_DIRECTORY
 
