@@ -1,0 +1,21 @@
+# CLI tools
+brew "bat"
+brew "figlet"
+brew "neovim"
+brew "ripgrep"
+brew "speedtest-cli"
+brew "tmux"
+brew "tree"
+brew "yt-dlp"
+
+# GUI apps
+cask "brave-browser"
+cask "firefox"
+cask "flameshot"
+cask "maccy"
+cask "pycharm-ce"
+cask "rectangle"
+cask "spotify"
+cask "vlc"
+cask "vscodium"
+cask "whatsapp"
