@@ -11,6 +11,10 @@ sudo pacman -Syu --needed --noconfirm \
     uv \
     claude-code
 
+echo "Installing AUR packages..."
+yay -S --needed --noconfirm \
+    render-cli-bin
+
 echo ""
 echo "After first launching PyCharm, add this to Help → Edit Custom VM Options:"
 echo "-Dawt.toolkit.name=WLToolkit"
