@@ -2,30 +2,27 @@
 
 set -e  # Exit on error
 
-DOTFILES_DIRECTORY="$HOME/Projects/dotfiles"
-export DOTFILES_DIRECTORY
+# How do I get the directory where a Bash script is located from within the script itself?
+# https://stackoverflow.com/a/246128/4044560
+SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 
 echo "Copying over aliases to $HOME/.aliases"
-cp "$DOTFILES_DIRECTORY/.aliases" "$HOME/.aliases"
+cp "$SCRIPT_DIR/.aliases" "$HOME/.aliases"
 echo "Appending zshrc to $HOME/.zshrc"
-cat "$DOTFILES_DIRECTORY/.zshrc" >> "$HOME/.zshrc"
+cat "$SCRIPT_DIR/.zshrc" >> "$HOME/.zshrc"
 
-echo "Copying gitignore from $DOTFILES_DIRECTORY/git/global_gitignore to $HOME/.gitignore"
-cp "$DOTFILES_DIRECTORY/git/global_gitignore" "$HOME/.gitignore"
+echo "Copying gitignore from $SCRIPT_DIR/git/global_gitignore to $HOME/.gitignore"
+cp "$SCRIPT_DIR/git/global_gitignore" "$HOME/.gitignore"
 
 if [[ "$OSTYPE" == "darwin"* ]]; then
-    echo "Running macOS specific setup"
-    echo "Installing homebrew"
-    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-    "$DOTFILES_DIRECTORY/macos/macos.sh"
-    "$DOTFILES_DIRECTORY/macos/brew.sh"
+    "$SCRIPT_DIR/macos/macos.sh"
 fi
 
 echo "Setting up git"
-"$DOTFILES_DIRECTORY/git/aliases.sh"
-"$DOTFILES_DIRECTORY/git/config.sh"
+"$SCRIPT_DIR/git/aliases.sh"
+"$SCRIPT_DIR/git/config.sh"
 
 # echo "Copying tmux config to $HOME/.config/tmux/tmux.conf."
-# mkdir -p "$HOME/.config/tmux" && cp "$DOTFILES_DIRECTORY/tmux/.tmux.conf" "$HOME/.config/tmux/tmux.conf"
+# mkdir -p "$HOME/.config/tmux" && cp "$SCRIPT_DIR/tmux/.tmux.conf" "$HOME/.config/tmux/tmux.conf"
 
 echo "Finished"
