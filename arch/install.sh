@@ -8,3 +8,9 @@ sudo pacman -Syu --needed --noconfirm \
     telegram-desktop \
     pycharm-community-edition \
     code
+
+echo ""
+echo "After first launching PyCharm, add this to Help → Edit Custom VM Options:"
+echo "-Dawt.toolkit.name=WLToolkit"
+echo ""
+read -p "Press Enter to acknowledge..."
