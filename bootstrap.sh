@@ -15,9 +15,7 @@ echo "Copying gitignore from $SCRIPT_DIR/git/global_gitignore to $HOME/.gitignor
 cp "$SCRIPT_DIR/git/global_gitignore" "$HOME/.gitignore"
 
 if [[ "$OSTYPE" == "darwin"* ]]; then
-    echo "Running macOS specific setup"
     "$SCRIPT_DIR/macos/macos.sh"
-    "$SCRIPT_DIR/macos/brew.sh"
 fi
 
 echo "Setting up git"
