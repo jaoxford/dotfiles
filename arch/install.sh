@@ -15,7 +15,7 @@ sudo pacman -Syu --needed --noconfirm \
 echo "Installing AUR packages..."
 yay -S --needed --noconfirm \
     render-cli-bin \
-    vscodium
+    vscodium-bin
 
 echo ""
 echo "After first launching PyCharm, add this to Help → Edit Custom VM Options:"
