@@ -9,13 +9,13 @@ sudo pacman -Syu --needed --noconfirm \
     speedtest-cli \
     telegram-desktop \
     pycharm-community-edition \
-    code \
     uv \
     claude-code
 
 echo "Installing AUR packages..."
 yay -S --needed --noconfirm \
-    render-cli-bin
+    render-cli-bin \
+    vscodium
 
 echo ""
 echo "After first launching PyCharm, add this to Help → Edit Custom VM Options:"
