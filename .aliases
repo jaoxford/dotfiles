@@ -4,4 +4,4 @@ alias download_mp3='cd ~/Music/Transcribing && yt-dlp -x --audio-format mp3 --au
 alias delete_merged_branches='git branch --merged| grep -Ev "(^\*|master|main|dev|skip_branch_name)" | xargs git branch -d'
 alias vi='nvim'
 alias vim='nvim'
-alias gitcleanup='git switch main && git pull && git fetchp && delete_merged_branches'
+alias gitcleanup='git switch master && git pull && git fetchp && delete_merged_branches'
