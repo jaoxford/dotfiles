@@ -10,12 +10,12 @@ sudo pacman -Syu --needed --noconfirm \
     telegram-desktop \
     pycharm-community-edition \
     uv \
-    claude-code
+    claude-code \
+    zed
 
 echo "Installing AUR packages..."
 yay -S --needed --noconfirm \
-    render-cli-bin \
-    vscodium-bin
+    render-cli-bin
 
 echo ""
 echo "After first launching PyCharm, add this to Help → Edit Custom VM Options:"
