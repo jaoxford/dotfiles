@@ -1,1 +1,80 @@
-{}
+{
+  "$schema": "https://aka.ms/winget-packages.schema.2.0.json",
+  "CreationDate": "2026-03-23T11:50:29.529-00:00",
+  "Sources": [
+    {
+      "Packages": [
+        {
+          "PackageIdentifier": "7zip.7zip"
+        },
+        {
+          "PackageIdentifier": "AutoHotkey.AutoHotkey"
+        },
+        {
+          "PackageIdentifier": "MHNexus.HxD"
+        },
+        {
+          "PackageIdentifier": "KDE.Krita"
+        },
+        {
+          "PackageIdentifier": "PPSSPPTeam.PPSSPP"
+        },
+        {
+          "PackageIdentifier": "Proton.ProtonVPN"
+        },
+        {
+          "PackageIdentifier": "VideoLAN.VLC"
+        },
+        {
+          "PackageIdentifier": "Wacom.WacomTabletDriver"
+        },
+        {
+          "PackageIdentifier": "MOTU.MSeries"
+        },
+        {
+          "PackageIdentifier": "Google.GoogleDrive"
+        },
+        {
+          "PackageIdentifier": "Elgato.StreamDeck"
+        },
+        {
+          "PackageIdentifier": "Open-Shell.Open-Shell-Menu"
+        },
+        {
+          "PackageIdentifier": "Brave.Brave"
+        },
+        {
+          "PackageIdentifier": "DolphinEmulator.Dolphin"
+        },
+        {
+          "PackageIdentifier": "Valve.Steam"
+        },
+        {
+          "PackageIdentifier": "NCHSoftware.VideoPad"
+        },
+        {
+          "PackageIdentifier": "ElaborateBytes.VirtualCloneDrive"
+        },
+        {
+          "PackageIdentifier": "flux.flux"
+        },
+        {
+          "PackageIdentifier": "GitHub.GitHubDesktop"
+        },
+        {
+          "PackageIdentifier": "Spotify.Spotify"
+        },
+        {
+          "PackageIdentifier": "ZedIndustries.Zed"
+        }
+      ],
+      "SourceDetails": {
+        "Argument": "https://cdn.winget.microsoft.com/cache",
+        "Identifier": "Microsoft.Winget.Source_8wekyb3d8bbwe",
+        "Name": "winget",
+        "Type": "Microsoft.PreIndexed.Package"
+      }
+    }
+  ],
+  "WinGetVersion": "1.28.220"
+}
