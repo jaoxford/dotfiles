@@ -6,6 +6,10 @@ set -e  # Exit on error
 # https://stackoverflow.com/a/246128/4044560
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 
+if [ -f /etc/arch-release ]; then
+    "$SCRIPT_DIR/arch/arch.sh"
+fi
+
 if [[ "$OSTYPE" == "darwin"* ]]; then
     echo "Copying over aliases to $HOME/.aliases"
     cp "$SCRIPT_DIR/.aliases" "$HOME/.aliases"
