@@ -4,9 +4,9 @@ A sensible place for different things related to my setup
 
 ## Installing via script
 
-There is a bootstrap script in the root directory of this repository: `bootstrap.sh`
+There is a setup script in the root directory of this repository: `setup.sh`
 
-Alternatively, if running from Windows, you can use the `bootstrap.bat` script.
+Alternatively, if running from Windows, you can use the `setup.bat` script.
 
 ### Installing homebrew packages
 
