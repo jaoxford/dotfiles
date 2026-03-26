@@ -11,15 +11,6 @@ if [ -f /etc/arch-release ]; then
 fi
 
 if [[ "$OSTYPE" == "darwin"* ]]; then
-    echo "Copying over aliases to $HOME/.aliases"
-    cp "$SCRIPT_DIR/.aliases" "$HOME/.aliases"
-
-    echo "Appending zshrc to $HOME/.zshrc"
-    cat "$SCRIPT_DIR/.zshrc" >> "$HOME/.zshrc"
-
-    echo "Copying gitignore from $SCRIPT_DIR/git/global_gitignore to $HOME/.gitignore"
-    cp "$SCRIPT_DIR/git/global_gitignore" "$HOME/.gitignore"
-
     "$SCRIPT_DIR/macos/macos.sh"
 fi
 
