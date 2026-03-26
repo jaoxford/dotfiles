@@ -14,8 +14,6 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     "$SCRIPT_DIR/macos/macos.sh"
 fi
 
-echo "Setting up git"
-"$SCRIPT_DIR/git/aliases.sh"
-"$SCRIPT_DIR/git/config.sh"
+"$SCRIPT_DIR/git/git.sh"
 
 echo "Finished"
