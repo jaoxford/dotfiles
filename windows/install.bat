@@ -1,1 +1,1 @@
-winget import package.json
+winget import packages.json
