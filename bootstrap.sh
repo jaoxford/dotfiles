@@ -23,7 +23,4 @@ echo "Setting up git"
 "$SCRIPT_DIR/git/aliases.sh"
 "$SCRIPT_DIR/git/config.sh"
 
-# echo "Copying tmux config to $HOME/.config/tmux/tmux.conf."
-# mkdir -p "$HOME/.config/tmux" && cp "$SCRIPT_DIR/tmux/.tmux.conf" "$HOME/.config/tmux/tmux.conf"
-
 echo "Finished"

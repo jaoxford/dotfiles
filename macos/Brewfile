@@ -4,7 +4,6 @@ brew "figlet"
 brew "neovim"
 brew "ripgrep"
 brew "speedtest-cli"
-brew "tmux"
 brew "tree"
 brew "yt-dlp"
 
