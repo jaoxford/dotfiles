@@ -7,6 +7,9 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "auto_install_extensions": {
+    "dracula": true
+  },
   "base_keymap": "VSCode",
   "colorize_brackets": true,
   "ensure_final_newline_on_save": true,
