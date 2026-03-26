@@ -6,6 +6,8 @@ A sensible place for different things related to my setup
 
 There is a bootstrap script in the root directory of this repository: `bootstrap.sh`
 
+Alternatively, if running from Windows, you can use the `bootstrap.bat` script.
+
 ### Installing homebrew packages
 
 You'll need to run the `./macos/brew.sh` file to install the homebrew packages.
