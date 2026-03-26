@@ -18,9 +18,9 @@ git maintenance start
 git config --global core.editor "nvim"
 # Automatically push to branch of same name with 'git push'
 git config --global push.autoSetupRemote true
-# Global gitignore
+# Global gitignore
 git config --global core.excludesFile "$HOME/.gitignore"
 # Prompt when wrong git command typed
 git config --global help.autocorrect prompt
-# Use better diffs!
+# Use better diffs!
 git config --global diff.algorithm histogram
