@@ -7,7 +7,7 @@ set -e  # Exit on error
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 
 if [ -f /etc/arch-release ]; then
-    "$SCRIPT_DIR/arch/arch.sh"
+    "$SCRIPT_DIR/omarchy/omarchy.sh"
 fi
 
 if [[ "$OSTYPE" == "darwin"* ]]; then
