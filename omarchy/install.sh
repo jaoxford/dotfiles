@@ -2,9 +2,7 @@
 
 set -e  # Exit on error
 
-echo "Setting up Omarchy..."
-
-echo "Updating system and installing packages from official repos..."
+echo "Installing packages from official repos..."
 sudo pacman -S --needed --noconfirm \
     speedtest-cli \
     telegram-desktop \

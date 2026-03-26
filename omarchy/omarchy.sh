@@ -6,6 +6,8 @@ set -e  # Exit on error
 # https://stackoverflow.com/a/246128/4044560
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 
+echo "Setting up Omarchy..."
+
 "$SCRIPT_DIR/install.sh"
 "$SCRIPT_DIR/link.sh"
 "$SCRIPT_DIR/uninstall.sh"
