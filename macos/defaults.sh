@@ -25,6 +25,9 @@ defaults write com.apple.dock autohide -bool "true"
 # Do not show recent applications in the dock
 defaults write com.apple.dock "show-recents" -bool "false"
 
+# Required by Scroll Reverser to independently control trackpad and mouse scroll direction
+defaults write NSGlobalDomain com.apple.swipescrolldirection -bool "false"
+
 # Enable dragging with three finger drag
 defaults write com.apple.AppleMultitouchTrackpad TrackpadThreeFingerDrag -bool "true"
 
