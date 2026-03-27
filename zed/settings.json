@@ -8,16 +8,16 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
   "auto_install_extensions": {
-    "dracula": true
+    "dracula": true,
   },
   "base_keymap": "VSCode",
   "colorize_brackets": true,
   "ensure_final_newline_on_save": true,
-  "ui_font_size": 16,
-  "buffer_font_size": 15,
+  "ui_font_size": 12,
+  "buffer_font_size": 12,
   "theme": {
     "mode": "system",
     "light": "One Light",
-    "dark": "Dracula Solid",
+    "dark": "Dracula",
   },
 }
