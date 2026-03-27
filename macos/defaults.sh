@@ -47,6 +47,16 @@ defaults write com.apple.finder ShowStatusBar -bool "true"
 defaults write com.apple.finder "ShowPathbar" -bool "false"
 
 ###############################################################################
+# Scroll Reverser                                                             #
+###############################################################################
+
+# Reverse scrolling on
+defaults write com.pilotmoon.scroll-reverser InvertScrollingOn -bool "true"
+
+# Don't reverse mouse (only reverse trackpad)
+defaults write com.pilotmoon.scroll-reverser ReverseMouse -bool "false"
+
+###############################################################################
 # Kill affected applications                                                  #
 ###############################################################################
 
