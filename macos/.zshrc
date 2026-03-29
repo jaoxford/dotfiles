@@ -83,11 +83,11 @@ source $ZSH/oh-my-zsh.sh
 # export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi
+if [[ -n $SSH_CONNECTION ]]; then
+  export EDITOR='vim'
+else
+  export EDITOR='nvim'
+fi
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -110,8 +110,6 @@ alias pip=/Library/Frameworks/Python.framework/Versions/3.13/bin/pip3
 
 source $HOME/.aliases
 
-export EDITOR='vim'
-
 create_commented_banner() {
   local text=$1  # Capture the input text as a local variable
   figlet "$text" | sed 's/^/# /'  # Generate banner and prefix each line with '# '
@@ -133,8 +131,6 @@ export PATH="/opt/homebrew/opt/postgresql@14/bin:$PATH"
 
 source $HOME/.aliases
 
-export EDITOR='vim'
-
 create_commented_banner() {
     local text=$1  # Capture the input text as a local variable
     figlet "$text" | sed 's/^/# /'  # Generate banner and prefix each line with '# '
@@ -151,8 +147,6 @@ create_commented_banner_for_windows() {
 alias claude="/Users/jacoboxford/.claude/local/claude"
 source $HOME/.aliases
 
-export EDITOR='vim'
-
 create_commented_banner() {
     local text=$1  # Capture the input text as a local variable
     figlet "$text" | sed 's/^/# /'  # Generate banner and prefix each line with '# '
@@ -165,8 +159,6 @@ create_commented_banner_for_windows() {
   echo "::"
 }
 source $HOME/.aliases
-
-export EDITOR='vim'
 
 create_commented_banner() {
     local text=$1  # Capture the input text as a local variable
