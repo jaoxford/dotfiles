@@ -110,12 +110,6 @@ alias pip=/Library/Frameworks/Python.framework/Versions/3.13/bin/pip3
 
 source $HOME/.aliases
 
-#
-# Adding poetry to path to get command to work
-# https://stackoverflow.com/a/70017461/4044560
-#
-export PATH="$HOME/.poetry/bin:$PATH"
-
 export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
 
 export LDFLAGS="-L/opt/homebrew/opt/libpq/lib"
