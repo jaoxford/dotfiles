@@ -110,8 +110,6 @@ alias pip=/Library/Frameworks/Python.framework/Versions/3.13/bin/pip3
 
 source $HOME/.aliases
 
-export PATH=/Users/jacoboxford/.meteor:$PATH
-
 #
 # Adding poetry to path to get command to work
 # https://stackoverflow.com/a/70017461/4044560
