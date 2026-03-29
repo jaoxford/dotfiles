@@ -110,10 +110,6 @@ alias pip=/Library/Frameworks/Python.framework/Versions/3.13/bin/pip3
 
 source $HOME/.aliases
 
-create_commented_banner() {
-  local text=$1  # Capture the input text as a local variable
-  figlet "$text" | sed 's/^/# /'  # Generate banner and prefix each line with '# '
-}
 export PATH=/Users/jacoboxford/.meteor:$PATH
 
 #
@@ -129,36 +125,8 @@ export CPPFLAGS="-I/opt/homebrew/opt/libpq/include"
 
 export PATH="/opt/homebrew/opt/postgresql@14/bin:$PATH"
 
-source $HOME/.aliases
-
-create_commented_banner() {
-    local text=$1  # Capture the input text as a local variable
-    figlet "$text" | sed 's/^/# /'  # Generate banner and prefix each line with '# '
-}
-
-create_commented_banner_for_windows() {
-  local text="$1"
-  echo "::"
-  figlet "$text" | sed 's/^/:: /'  # Prefix each line with ':: ' for batch comments
-  echo "::"
-}
-
 
 alias claude="/Users/jacoboxford/.claude/local/claude"
-source $HOME/.aliases
-
-create_commented_banner() {
-    local text=$1  # Capture the input text as a local variable
-    figlet "$text" | sed 's/^/# /'  # Generate banner and prefix each line with '# '
-}
-
-create_commented_banner_for_windows() {
-  local text="$1"
-  echo "::"
-  figlet "$text" | sed 's/^/:: /'  # Prefix each line with ':: ' for batch comments
-  echo "::"
-}
-source $HOME/.aliases
 
 create_commented_banner() {
     local text=$1  # Capture the input text as a local variable
