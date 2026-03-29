@@ -1,6 +1,28 @@
-source $HOME/.aliases
+# Path to your oh-my-zsh installation.
+export ZSH="$HOME/.oh-my-zsh"
 
-export EDITOR='vim'
+ZSH_THEME="dracula"
+ENABLE_CORRECTION="true"
+
+plugins=(git macos colored-man-pages)
+
+source $ZSH/oh-my-zsh.sh
+
+# Preferred editor for local and remote sessions
+if [[ -n $SSH_CONNECTION ]]; then
+  export EDITOR='vim'
+else
+  export EDITOR='nvim'
+fi
+
+[[ -f "$HOME/.aliases" ]] && source "$HOME/.aliases"
+
+export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
+
+export LDFLAGS="-L/opt/homebrew/opt/libpq/lib"
+export CPPFLAGS="-I/opt/homebrew/opt/libpq/include"
+
+export PATH="/opt/homebrew/opt/postgresql@14/bin:$PATH"
 
 create_commented_banner() {
     local text=$1  # Capture the input text as a local variable
