@@ -15,7 +15,7 @@ else
   export EDITOR='nvim'
 fi
 
-source $HOME/.aliases
+[[ -f "$HOME/.aliases" ]] && source "$HOME/.aliases"
 
 export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
 
