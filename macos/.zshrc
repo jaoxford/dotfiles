@@ -101,13 +101,6 @@ fi
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-#
-# Python 3.13 is now my default
-# Sourced from: https://stackoverflow.com/a/71621142/4044560
-#
-alias python=/Library/Frameworks/Python.framework/Versions/3.13/bin/python3
-alias pip=/Library/Frameworks/Python.framework/Versions/3.13/bin/pip3
-
 source $HOME/.aliases
 
 export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
