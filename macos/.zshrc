@@ -110,9 +110,6 @@ export CPPFLAGS="-I/opt/homebrew/opt/libpq/include"
 
 export PATH="/opt/homebrew/opt/postgresql@14/bin:$PATH"
 
-
-alias claude="/Users/jacoboxford/.claude/local/claude"
-
 create_commented_banner() {
     local text=$1  # Capture the input text as a local variable
     figlet "$text" | sed 's/^/# /'  # Generate banner and prefix each line with '# '
