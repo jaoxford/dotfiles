@@ -30,3 +30,7 @@ cask "vlc"
 cask "whatsapp"
 cask "zed"
 cask "zoom"
+
+# Water Direct specifics
+cash "slack"
+cask "clickup"
