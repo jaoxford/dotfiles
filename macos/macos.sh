@@ -9,6 +9,6 @@ DOTFILES_DIR=$( cd -- "$SCRIPT_DIR/.." &> /dev/null && pwd )
 
 echo "Running macOS setup..."
 
-"$SCRIPT_DIR/link.sh"
 "$SCRIPT_DIR/brew.sh"
+"$SCRIPT_DIR/link.sh"
 "$SCRIPT_DIR/defaults.sh"
