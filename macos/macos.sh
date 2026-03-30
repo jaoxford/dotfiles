@@ -10,8 +10,5 @@ DOTFILES_DIR=$( cd -- "$SCRIPT_DIR/.." &> /dev/null && pwd )
 echo "Running macOS setup..."
 
 "$SCRIPT_DIR/link.sh"
-
-echo "Appending zshrc to $HOME/.zshrc"
-cat "$SCRIPT_DIR/.zshrc" >> "$HOME/.zshrc"
 "$SCRIPT_DIR/brew.sh"
 "$SCRIPT_DIR/defaults.sh"
