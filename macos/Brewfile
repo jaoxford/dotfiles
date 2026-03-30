@@ -32,5 +32,5 @@ cask "zed"
 cask "zoom"
 
 # Water Direct specifics
-cash "slack"
+cask "slack"
 cask "clickup"
