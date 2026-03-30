@@ -5,7 +5,6 @@ set -e  # Exit on error
 echo "Installing packages from official repos..."
 sudo pacman -S --needed --noconfirm \
     speedtest-cli \
-    telegram-desktop \
     pycharm-community-edition \
     uv \
     claude-code \
