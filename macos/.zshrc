@@ -24,6 +24,16 @@ export CPPFLAGS="-I/opt/homebrew/opt/libpq/include"
 
 export PATH="/opt/homebrew/opt/postgresql@14/bin:$PATH"
 
+download_mp3() {
+    yt-dlp -x --audio-format mp3 --audio-quality 0 "$1"
+}
+
+download_transcription() {
+    cd "$HOME/Music/Transcribing"
+    download_mp3 "$1"
+    cd -
+}
+
 create_commented_banner() {
     local text=$1  # Capture the input text as a local variable
     figlet "$text" | sed 's/^/# /'  # Generate banner and prefix each line with '# '
