@@ -10,10 +10,11 @@ sudo pacman -S --needed --noconfirm \
     claude-code \
     zed
 
-echo "Installing AUR packages..."
+echo "Installing Water Direct AUR packages..."
 yay -S --needed --noconfirm \
     render-cli-bin \
-    slack-desktop-wayland  # For Water Direct comms.
+    slack-desktop-wayland \
+    clickup
 
 echo ""
 echo "After first launching PyCharm, add this to Help → Edit Custom VM Options:"
