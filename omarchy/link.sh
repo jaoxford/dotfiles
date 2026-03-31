@@ -10,6 +10,8 @@ echo "Linking config files..."
 
 ln -sf "$DOTFILES_DIR/git/global_gitignore" "$HOME/.gitignore"
 
+ln -sf "$SCRIPT_DIR/.bashrc" "$HOME/.bashrc"
+
 ln -sf "$SCRIPT_DIR/.config/hypr/bindings.conf" "$CONFIG_DIR/hypr/bindings.conf"
 ln -sf "$SCRIPT_DIR/.config/hypr/input.conf" "$CONFIG_DIR/hypr/input.conf"
 ln -sf "$SCRIPT_DIR/.config/hypr/monitors.conf" "$CONFIG_DIR/hypr/monitors.conf"
