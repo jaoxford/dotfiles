@@ -12,7 +12,8 @@ sudo pacman -S --needed --noconfirm \
 
 echo "Installing AUR packages..."
 yay -S --needed --noconfirm \
-    render-cli-bin
+    render-cli-bin \
+    slack-desktop-wayland  # For Water Direct comms.
 
 echo ""
 echo "After first launching PyCharm, add this to Help → Edit Custom VM Options:"
