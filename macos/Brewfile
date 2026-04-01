@@ -2,6 +2,8 @@
 brew "bat"
 brew "figlet"
 brew "neovim"
+# pinentry is the secure UI that GPG uses to ask for your passphrase, since GPG itself has no way to prompt you directly.
+brew "pinentry-mac"
 brew "ripgrep"
 brew "speedtest-cli"
 brew "tree"
