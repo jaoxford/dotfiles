@@ -49,6 +49,9 @@ defaults write com.apple.finder ShowStatusBar -bool "true"
 # Finder: show path bar
 defaults write com.apple.finder "ShowPathbar" -bool "false"
 
+# Disable mouse acceleration
+defaults write NSGlobalDomain com.apple.mouse.linear -bool "true"
+
 ###############################################################################
 # Scroll Reverser                                                             #
 ###############################################################################
