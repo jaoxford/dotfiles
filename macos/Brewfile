@@ -1,5 +1,7 @@
 # CLI tools
 brew "bat"
+# Terminal based "The Matrix" like implementation
+brew "cmatrix"
 brew "figlet"
 brew "neovim"
 # pinentry is the secure UI that GPG uses to ask for your passphrase, since GPG itself has no way to prompt you directly.
