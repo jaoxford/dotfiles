@@ -9,7 +9,8 @@ sudo pacman -S --needed --noconfirm \
     uv \
     claude-code \
     zed \
-    cmatrix
+    cmatrix \
+    lazydocker
 
 echo "Installing Water Direct AUR packages..."
 yay -S --needed --noconfirm \
