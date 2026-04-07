@@ -8,7 +8,8 @@ sudo pacman -S --needed --noconfirm \
     pycharm-community-edition \
     uv \
     claude-code \
-    zed
+    zed \
+    cmatrix
 
 echo "Installing Water Direct AUR packages..."
 yay -S --needed --noconfirm \
