@@ -1,4 +1,5 @@
 # CLI tools
+brew "git"
 brew "bat"
 # Terminal based "The Matrix" like implementation
 brew "cmatrix"
