@@ -9,6 +9,6 @@ SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 echo "Setting up Omarchy..."
 
 "$SCRIPT_DIR/install.sh"
+"$SCRIPT_DIR/install_dracula_theme.sh"
 "$SCRIPT_DIR/link.sh"
 "$SCRIPT_DIR/uninstall.sh"
-"$SCRIPT_DIR/install_dracula_theme.sh"
