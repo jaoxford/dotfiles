@@ -9,3 +9,4 @@ SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 "$SCRIPT_DIR/change_to_zsh.sh"
 "$SCRIPT_DIR/install.sh"
 "$SCRIPT_DIR/brave.sh"
+"$SCRIPT_DIR/link.sh"
