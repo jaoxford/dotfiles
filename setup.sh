@@ -20,5 +20,3 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
 fi
 
 "$SCRIPT_DIR/git/git.sh"
-
-echo "Finished"
