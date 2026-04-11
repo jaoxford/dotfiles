@@ -1,6 +1,6 @@
 theme = Dracula
 
-# Navigate splits with vim motions
+# Navigate splits with vim motions on Aerospace
 keybind = cmd+option+h=goto_split:left
 keybind = cmd+option+l=goto_split:right
 keybind = cmd+option+k=goto_split:up
