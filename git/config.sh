@@ -9,10 +9,12 @@ git config --global column.ui auto
 # Sort branches by latest commits at top
 git config --global branch.sort -committerdate
 # Sign commits by SSH rather than GPG
-git config gpg.format openpgp
+git config --global gpg.format openpgp
 # Location of SSH key for signing
-git config user.signingkey ~/.ssh/id_ed25519.pub
+git config --global user.signingkey ~/.ssh/id_ed25519.pub
 # Automatically run git maintenance
+# Need to run it on a per-repo basis.
+# So cd into repo where you want maintenance to run
 git maintenance start
 # Set default editor to neovim
 git config --global core.editor "nvim"

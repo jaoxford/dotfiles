@@ -7,7 +7,12 @@ set -e  # Exit on error
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 
 if [ -f /etc/arch-release ]; then
-    "$SCRIPT_DIR/omarchy/omarchy.sh"
+    if grep -q "cachyos" "/etc/os-release"; then
+        "$SCRIPT_DIR/cachyos/cachyos.sh"
+    elif grep -q "^ID=arch$" "/etc/os-release"; then
+        echo "Omarchy detected"
+        "$SCRIPT_DIR/omarchy/omarchy.sh"
+    fi
 fi
 
 if [[ "$OSTYPE" == "darwin"* ]]; then
@@ -15,5 +20,3 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
 fi
 
 "$SCRIPT_DIR/git/git.sh"
-
-echo "Finished"
