@@ -1,9 +1,11 @@
 #!/bin/bash
 
-set -e  # Exit on error
+set -e
 
 sudo pacman -S --needed --noconfirm \
     brave-bin \
+    cachyos-gaming-applications \
+    cachyos-gaming-meta \
     claude-code \
     ghostty \
     lazygit \
