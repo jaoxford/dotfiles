@@ -15,6 +15,7 @@ sudo pacman -S --needed --noconfirm \
 
 paru -S --needed --noconfirm \
     supermodel \
-    flycast
+    flycast \
+    stash-bin
 
 mkdir -p "$HOME/.local/share/supermodel/ROMs"
