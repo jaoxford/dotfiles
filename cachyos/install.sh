@@ -14,4 +14,7 @@ sudo pacman -S --needed --noconfirm \
     zed
 
 paru -S --needed --noconfirm \
+    supermodel \
     flycast
+
+mkdir -p "$HOME/.local/share/supermodel/ROMs"

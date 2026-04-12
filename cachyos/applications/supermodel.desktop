@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=Supermodel
-Comment=A Sega Model 3 Arcade Emulator
-Exec=/home/jacob/.local/bin/supermodel
-Icon=applications-games
-Type=Application
-Categories=Game;
-Terminal=false
