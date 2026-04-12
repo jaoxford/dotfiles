@@ -1,7 +1,7 @@
-# Copy to: ~/.local/share/applications/stash.desktop
 [Desktop Entry]
 Name=Stash
 Exec=/home/jacob/.local/bin/stash
+Comment=Adult content organiser
 Icon=/home/jacob/.local/share/icons/stash.png
 Type=Application
 Categories=AudioVideo;
