@@ -9,6 +9,7 @@ sudo pacman -S --needed --noconfirm \
     claude-code \
     ghostty \
     lazygit \
+    mame \
     proton-vpn-gtk-app \
     speedtest-cli \
     strawberry \
