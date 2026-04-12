@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Stash
+Exec=/home/jacob/.local/bin/stash
+Icon=/home/jacob/.local/share/icons/stash.png
+Type=Application
+Categories=AudioVideo;
+Terminal=false
