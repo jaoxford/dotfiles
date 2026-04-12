@@ -12,3 +12,6 @@ sudo pacman -S --needed --noconfirm \
     proton-vpn-gtk-app \
     strawberry \
     zed
+
+paru -S --needed --noconfirm \
+    flycast
