@@ -1,3 +1,4 @@
+# Copy to: ~/.local/share/applications/stash.desktop
 [Desktop Entry]
 Name=Stash
 Exec=/home/jacob/.local/bin/stash
