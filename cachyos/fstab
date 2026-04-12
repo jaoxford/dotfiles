@@ -1,5 +1,4 @@
-# Windows NTFS partition — mounted for Stash media access
-# Stash library path: /mnt/windows/Users/jacob/Videos/P
+# Windows NTFS partition
 # ro = read-only, safe if Windows used fast startup/hibernation
 # nofail = don't halt boot if partition is unavailable
 # After adding, run: sudo mkdir -p /mnt/windows && sudo mount /mnt/windows
