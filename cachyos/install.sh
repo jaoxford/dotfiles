@@ -10,6 +10,7 @@ sudo pacman -S --needed --noconfirm \
     ghostty \
     lazygit \
     proton-vpn-gtk-app \
+    speedtest-cli \
     strawberry \
     zed
 
