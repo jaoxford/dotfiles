@@ -9,5 +9,6 @@ sudo pacman -S --needed --noconfirm \
     claude-code \
     ghostty \
     lazygit \
+    proton-vpn-gtk-app \
     strawberry \
     zed
