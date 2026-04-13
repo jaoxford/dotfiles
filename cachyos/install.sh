@@ -16,6 +16,7 @@ sudo pacman -S --needed --noconfirm \
     zed
 
 paru -S --needed --noconfirm \
+    duckstation-qt-bin \
     flycast \
     stash-bin \
     supermodel
