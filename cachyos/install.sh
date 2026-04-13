@@ -7,6 +7,7 @@ sudo pacman -S --needed --noconfirm \
     cachyos-gaming-applications \
     cachyos-gaming-meta \
     claude-code \
+    fbneo-git \
     ghostty \
     lazygit \
     mame \
