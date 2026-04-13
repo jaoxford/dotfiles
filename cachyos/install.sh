@@ -3,6 +3,7 @@
 set -e
 
 sudo pacman -S --needed --noconfirm \
+    anki \
     brave-bin \
     cachyos-gaming-applications \
     cachyos-gaming-meta \
