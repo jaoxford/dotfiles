@@ -11,3 +11,4 @@ source ~/.local/share/omarchy/default/bash/rc
 # alias p='python'
 alias vim='nvim'
 alias lg='lazygit'
+alias ss='cmatrix -a -b -s -u 3'

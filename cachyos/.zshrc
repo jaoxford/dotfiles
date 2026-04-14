@@ -13,3 +13,4 @@ source /usr/share/cachyos-zsh-config/cachyos-config.zsh
 export PATH="$HOME/.local/bin:$PATH"
 
 alias lg='lazygit'
+alias ss='cmatrix -a -b -s -u 3'
