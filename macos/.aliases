@@ -5,3 +5,4 @@ alias delete_merged_branches='git branch --merged | grep -Ev "(^\*|master|main|d
 alias vi='nvim'
 alias vim='nvim'
 alias gitcleanup='git switch master && git pull && git fetchp && delete_merged_branches'
+alias lg='lazygit'
