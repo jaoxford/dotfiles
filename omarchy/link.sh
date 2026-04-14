@@ -6,8 +6,6 @@ SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 DOTFILES_DIR=$( cd -- "$SCRIPT_DIR/.." &> /dev/null && pwd )
 CONFIG_DIR="${XDG_CONFIG_HOME}"
 
-echo "Linking config files..."
-
 ln -sf "$DOTFILES_DIR/git/global_gitignore" "$HOME/.gitignore"
 
 ln -sf "$SCRIPT_DIR/.bashrc" "$HOME/.bashrc"

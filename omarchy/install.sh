@@ -2,7 +2,6 @@
 
 set -e  # Exit on error
 
-echo "Installing packages from official repos..."
 sudo pacman -S --needed --noconfirm \
     speedtest-cli \
     pycharm-community-edition \
@@ -12,7 +11,7 @@ sudo pacman -S --needed --noconfirm \
     cmatrix \
     lazydocker
 
-echo "Installing Water Direct AUR packages..."
+# Water Direct AUR packages
 yay -S --needed --noconfirm \
     render-cli-bin \
     slack-desktop-wayland \

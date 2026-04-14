@@ -10,7 +10,6 @@ if [ -f /etc/arch-release ]; then
     if grep -q "cachyos" "/etc/os-release"; then
         "$SCRIPT_DIR/cachyos/cachyos.sh"
     elif grep -q "^ID=arch$" "/etc/os-release"; then
-        echo "Omarchy detected"
         "$SCRIPT_DIR/omarchy/omarchy.sh"
     fi
 fi
