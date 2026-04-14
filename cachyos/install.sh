@@ -20,6 +20,7 @@ sudo pacman -S --needed --noconfirm \
 paru -S --needed --noconfirm \
     duckstation-qt-bin \
     flycast \
+    opendeck-bin \
     pcsx2 \
     stash-bin \
     supermodel
