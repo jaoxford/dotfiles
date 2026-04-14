@@ -2,10 +2,7 @@
 
 set -e  # Exit on error
 
-echo "Installing Homebrew and packages..."
-
 if ! which brew &> /dev/null; then
-    echo "Installing homebrew"
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 

@@ -7,8 +7,6 @@ set -e  # Exit on error
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 DOTFILES_DIR=$( cd -- "$SCRIPT_DIR/.." &> /dev/null && pwd )
 
-echo "Running macOS setup..."
-
 "$SCRIPT_DIR/brew.sh"
 "$SCRIPT_DIR/link.sh"
 "$SCRIPT_DIR/defaults.sh"
