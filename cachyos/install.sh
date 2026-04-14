@@ -21,7 +21,7 @@ paru -S --needed --noconfirm \
     duckstation-qt-bin \
     flycast \
     opendeck-bin \
-    pcsx2 \
+    pcsx2-latest-bin \
     stash-bin \
     supermodel
 
