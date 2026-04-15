@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# Launch cmatrix as a screensaver using the omarchy screensaver window class
+# so Hyprland's fullscreen/float/animation rules apply.
+
+# Exit early if already running
+pgrep -f org.omarchy.screensaver && exit 0
+
+walker -q
+
+focused=$(hyprctl monitors -j | jq -r '.[] | select(.focused == true).name')
+
+for m in $(hyprctl monitors -j | jq -r '.[] | .name'); do
+  hyprctl dispatch focusmonitor $m
+  hyprctl dispatch exec -- \
+    ghostty --class=org.omarchy.screensaver \
+    --config-file=~/.local/share/omarchy/default/ghostty/screensaver \
+    --font-size=18 \
+    -e "cmatrix -a -b -s -u 3"
+done
+
+hyprctl dispatch focusmonitor $focused
