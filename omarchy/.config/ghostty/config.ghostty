@@ -1,4 +1,5 @@
 # Currently hardcoded, but I don't intend to change from Dracula anytime soon!
+# There are a few PRs on http://github.com/catlee/omarchy-dracula-theme, once one is merged, I can remove the line below.
 theme = Dracula
 
 mouse-scroll-multiplier = 3.0
