@@ -12,3 +12,5 @@ source ~/.local/share/omarchy/default/bash/rc
 alias vim='nvim'
 alias lg='lazygit'
 alias ss='cmatrix -a -b -s -u 3'
+# -r prevents xargs from running git branch -d with no args when there are no merged branches to delete (GNU xargs only, not macOS)
+alias delete_merged_branches='git branch --merged | grep -Ev "(^\*|master|main|dev|skip_branch_name)" | xargs -r git branch -d'
