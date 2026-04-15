@@ -1,1 +1,4 @@
+# Currently hardcoded, but I don't intend to change from Dracula anytime soon!
 theme = Dracula
+
+mouse-scroll-multiplier = 3.0
