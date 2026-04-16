@@ -11,6 +11,8 @@ brew "pinentry-mac"
 brew "ripgrep"
 brew "speedtest-cli"
 brew "tree"
+# Terminal file manager
+brew "yazi"
 brew "yt-dlp"
 
 # GUI apps
