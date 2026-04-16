@@ -12,6 +12,7 @@ sudo pacman -S --needed --noconfirm \
     fbneo-git \
     ghostty \
     lazygit \
+    kdenlive \
     mame \
     proton-vpn-gtk-app \
     speedtest-cli \
