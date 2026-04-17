@@ -10,3 +10,6 @@ fi
 # https://stackoverflow.com/a/246128/4044560
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 brew bundle check --file="$SCRIPT_DIR/Brewfile" || brew bundle install --file="$SCRIPT_DIR/Brewfile"
+
+# For Yazi
+brew link ffmpeg-full imagemagick-full -f --overwrite

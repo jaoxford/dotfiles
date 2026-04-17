@@ -11,8 +11,6 @@ brew "pinentry-mac"
 brew "ripgrep"
 brew "speedtest-cli"
 brew "tree"
-# Terminal file manager
-brew "yazi"
 brew "yt-dlp"
 
 # GUI apps
@@ -37,6 +35,21 @@ cask "vlc"
 cask "whatsapp"
 cask "zed"
 cask "zoom"
+
+# yazi + dependencies
+# Yazi is a Terminal file manager
+# https://yazi-rs.github.io/docs/installation/#homebrew
+brew "yazi"
+brew "ffmpeg-full"
+brew "imagemagick-full"
+brew "sevenzip"
+brew "jq"
+brew "poppler"
+brew "fd"
+brew "fzf"
+brew "zoxide"
+brew "resvg"
+cask "font-symbols-only-nerd-font"
 
 # Water Direct specifics
 cask "slack"
