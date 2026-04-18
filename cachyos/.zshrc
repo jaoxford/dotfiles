@@ -14,3 +14,5 @@ export PATH="$HOME/.local/bin:$PATH"
 
 alias lg='lazygit'
 alias ss='cmatrix -a -b -s -u 3'
+alias vi='nvim'
+alias vim='nvim'
