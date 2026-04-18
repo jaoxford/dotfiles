@@ -12,3 +12,4 @@ mkdir -p "$HOME/.config/ghostty" && ln -sf "$SCRIPT_DIR/.config/ghostty/config.g
 mkdir -p "$HOME/.config/nvim/lua/plugins" && ln -sf "$DOTFILES_DIR/nvim/plugins/colorscheme.lua" "$HOME/.config/nvim/lua/plugins/colorscheme.lua"
 mkdir -p "$HOME/.gnupg" && ln -sf "$SCRIPT_DIR/.config/gnupg/gpg-agent.conf" "$HOME/.gnupg/gpg-agent.conf"
 ln -sf "$SCRIPT_DIR/.config/nvim/options.lua" "$HOME/.config/nvim/options.lua"
+ln -sf "$SCRIPT_DIR/.aerospace.toml" "$HOME/.aerospace.toml"
