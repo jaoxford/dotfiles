@@ -45,3 +45,13 @@ create_commented_banner_for_windows() {
   figlet "$text" | sed 's/^/:: /'  # Prefix each line with ':: ' for batch comments
   echo "::"
 }
+
+# https://yazi-rs.github.io/docs/quick-start/#shell-wrapper
+# We suggest using this y shell wrapper that provides the ability to change the current working directory when exiting Yazi.
+function y() {
+	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
+	command yazi "$@" --cwd-file="$tmp"
+	IFS= read -r -d '' cwd < "$tmp"
+	[ "$cwd" != "$PWD" ] && [ -d "$cwd" ] && builtin cd -- "$cwd"
+	rm -f -- "$tmp"
+}
