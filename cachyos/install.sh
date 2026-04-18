@@ -14,6 +14,7 @@ sudo pacman -S --needed --noconfirm \
     lazygit \
     kdenlive \
     mame \
+    neovim \
     proton-vpn-gtk-app \
     speedtest-cli \
     strawberry \
