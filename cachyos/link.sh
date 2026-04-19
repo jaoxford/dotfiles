@@ -13,5 +13,5 @@ ln -sf "$SCRIPT_DIR/.config/ghostty/config.ghostty" "$HOME/.config/ghostty/confi
 ln -sf "$SCRIPT_DIR/.config/kcminputrc" "$HOME/.config/kcminputrc"
 ln -sf "$SCRIPT_DIR/applications/stash.desktop" "$HOME/.local/share/applications/stash.desktop"
 ln -sf "$DOTFILES_DIR/nvim/plugins/colorscheme.lua" "$HOME/.config/nvim/lua/plugins/colorscheme.lua"
-ln -sf "$DOTFILES_DIR/nvim/options.lua" "$HOME/.config/nvim/options.lua"
+ln -sf "$DOTFILES_DIR/nvim/options.lua" "$HOME/.config/nvim/lua/config/options.lua"
 ln -sf "$DOTFILES_DIR/yazi/yazi.toml" "$HOME/.config/yazi/yazi.toml"
