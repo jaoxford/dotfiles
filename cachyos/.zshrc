@@ -16,3 +16,15 @@ alias lg='lazygit'
 alias ss='cmatrix -a -b -s -u 3'
 alias vi='nvim'
 alias vim='nvim'
+
+# https://yazi-rs.github.io/docs/quick-start/#shell-wrapper
+# We suggest using this y shell wrapper that provides the ability to change the current working directory when exiting Yazi.
+function y() {
+	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
+	command yazi "$@" --cwd-file="$tmp"
+	IFS= read -r -d '' cwd < "$tmp"
+	[ "$cwd" != "$PWD" ] && [ -d "$cwd" ] && builtin cd -- "$cwd"
+	rm -f -- "$tmp"
+}
+
+eval "$(zoxide init zsh --cmd cd)"
