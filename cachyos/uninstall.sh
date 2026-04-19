@@ -2,5 +2,7 @@
 
 set -e
 
-sudo pacman -Rs \
-    alacritty
+if pacman -Qi alacritty &>/dev/null; then
+    sudo pacman -Rs \
+        alacritty
+fi
