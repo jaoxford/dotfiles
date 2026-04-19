@@ -16,6 +16,7 @@ alias lg='lazygit'
 alias ss='cmatrix -a -b -s -u 3'
 alias vi='nvim'
 alias vim='nvim'
+alias zed='zeditor'
 
 # https://yazi-rs.github.io/docs/quick-start/#shell-wrapper
 # We suggest using this y shell wrapper that provides the ability to change the current working directory when exiting Yazi.
