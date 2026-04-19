@@ -9,5 +9,6 @@ DOTFILES_DIR=$( cd -- "$SCRIPT_DIR/.." &> /dev/null && pwd )
 
 "$SCRIPT_DIR/brew.sh"
 "$SCRIPT_DIR/install_omz.sh"
+"$DOTFILES_DIR/nvim/install_lazyvim.sh"
 "$SCRIPT_DIR/link.sh"
 "$SCRIPT_DIR/defaults.sh"

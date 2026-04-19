@@ -13,3 +13,4 @@ mkdir -p "$HOME/.config/nvim/lua/plugins" && ln -sf "$DOTFILES_DIR/nvim/plugins/
 mkdir -p "$HOME/.gnupg" && ln -sf "$SCRIPT_DIR/.config/gnupg/gpg-agent.conf" "$HOME/.gnupg/gpg-agent.conf"
 ln -sf "$DOTFILES_DIR/nvim/options.lua" "$HOME/.config/nvim/options.lua"
 ln -sf "$SCRIPT_DIR/.aerospace.toml" "$HOME/.aerospace.toml"
+ln -sf "$DOTFILES_DIR/yazi/yazi.toml" "$HOME/.config/yazi/yazi.toml"
