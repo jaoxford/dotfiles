@@ -13,3 +13,5 @@ brew bundle check --file="$SCRIPT_DIR/Brewfile" || brew bundle install --file="$
 
 # For Yazi
 brew link ffmpeg-full imagemagick-full -f --overwrite
+
+"$SCRIPT_DIR/install_janky_borders.sh"
