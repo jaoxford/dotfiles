@@ -18,6 +18,7 @@ sudo pacman -S --needed --noconfirm \
     proton-vpn-gtk-app \
     speedtest-cli \
     strawberry \
+    wl-clipboard \
     zed
 
 paru -S --needed --noconfirm \
