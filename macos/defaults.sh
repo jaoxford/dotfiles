@@ -50,6 +50,9 @@ defaults write com.apple.finder "ShowPathbar" -bool "false"
 # Disable mouse acceleration
 defaults write NSGlobalDomain com.apple.mouse.linear -bool "true"
 
+# Disable Displays have separate Spaces
+defaults write com.apple.spaces "spans-displays" -bool "true" && killall SystemUIServer
+
 ###############################################################################
 # Scroll Reverser                                                             #
 ###############################################################################
