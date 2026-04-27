@@ -37,4 +37,9 @@
     "light": "One Light",
     "dark": "Dracula",
   },
+  "languages": {
+    "Python": {
+      "language_servers": ["ty", "ruff"],
+    },
+  },
 }
