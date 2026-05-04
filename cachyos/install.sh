@@ -10,6 +10,7 @@ sudo pacman -S --needed --noconfirm \
     claude-code \
     fbneo-git \
     ghostty \
+    helium-browser-bin \
     lazygit \
     kdenlive \
     mame \
