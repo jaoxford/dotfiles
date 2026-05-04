@@ -9,9 +9,9 @@ DOTFILES_DIR=$( cd -- "$SCRIPT_DIR/.." &> /dev/null && pwd )
 
 "$SCRIPT_DIR/change_to_zsh.sh"
 "$SCRIPT_DIR/install.sh"
-"$SCRIPT_DIR/brave.sh"
 "$SCRIPT_DIR/link.sh"
 "$DOTFILES_DIR/nvim/install_lazyvim.sh"
 "$SCRIPT_DIR/install_yazi.sh"
 "$SCRIPT_DIR/install_uv.sh"
 "$SCRIPT_DIR/uninstall.sh"
+"$SCRIPT_DIR/set_defaults.sh"
