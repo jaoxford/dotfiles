@@ -20,6 +20,9 @@ defaults write com.apple.finder UseStacks -bool true
 # Disable wallpaper tinting in windows
 defaults write NSGlobalDomain AppleReduceDesktopTinting -bool true
 
+# Show battery percentage in menu bar
+defaults write com.apple.controlcenter "Battery Show Percentage" -bool true
+
 # Scrollbars: click to jump to position clicked
 defaults write NSGlobalDomain AppleScrollerPagingBehavior -bool true
 
