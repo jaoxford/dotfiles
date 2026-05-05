@@ -47,6 +47,9 @@ defaults write NSGlobalDomain com.apple.swipescrolldirection -bool "false"
 # Enable dragging with three finger drag
 defaults write com.apple.AppleMultitouchTrackpad TrackpadThreeFingerDrag -bool "true"
 
+# Globe/fn key does nothing
+defaults write com.apple.HIToolbox AppleFnUsageType -int 0
+
 # Disable press-and-hold for keys in favor of key repeat
 defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool "false"
 
