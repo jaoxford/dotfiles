@@ -11,6 +11,9 @@ sudo pacman -S --needed --noconfirm \
     cmatrix \
     lazydocker
 
+yay -S --needed --noconfirm \
+    helium-browser-bin
+
 # Water Direct AUR packages
 yay -S --needed --noconfirm \
     render-cli-bin \
