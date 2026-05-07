@@ -17,9 +17,6 @@ sudo defaults write /Library/Preferences/com.apple.iokit.AmbientLightSensor "Aut
 # Display sleep after 10 minutes
 sudo pmset -a displaysleep 10
 
-# Keep-alive: update existing `sudo` time stamp until `.macos` has finished
-while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
-
 # Use stacks on desktop
 defaults write com.apple.finder UseStacks -bool true
 
