@@ -17,13 +17,6 @@ fi
 
 [[ -f "$HOME/.aliases" ]] && source "$HOME/.aliases"
 
-export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
-
-export LDFLAGS="-L/opt/homebrew/opt/libpq/lib"
-export CPPFLAGS="-I/opt/homebrew/opt/libpq/include"
-
-export PATH="/opt/homebrew/opt/postgresql@14/bin:$PATH"
-
 download_mp3() {
     yt-dlp -x --audio-format mp3 --audio-quality 0 "$1"
 }
