@@ -54,3 +54,4 @@ cask "font-symbols-only-nerd-font"
 # Water Direct specifics
 cask "slack"
 cask "clickup"
+cask "ngrok"
