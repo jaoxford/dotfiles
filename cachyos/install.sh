@@ -11,6 +11,7 @@ sudo pacman -S --needed --noconfirm \
     fbneo-git \
     ghostty \
     helium-browser-bin \
+    hugo \
     lazygit \
     kdenlive \
     mame \
