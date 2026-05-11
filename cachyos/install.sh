@@ -29,6 +29,7 @@ paru -S --needed --noconfirm \
     opendeck-bin \
     pcsx2-latest-bin \
     stash-bin \
-    supermodel
+    supermodel \
+    xemu-bin
 
 mkdir -p "$HOME/.local/share/supermodel/ROMs"
