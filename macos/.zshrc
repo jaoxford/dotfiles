@@ -50,3 +50,5 @@ function y() {
 }
 
 eval "$(zoxide init zsh --cmd cd)"
+
+export PATH="$HOME/.local/bin:$PATH"
