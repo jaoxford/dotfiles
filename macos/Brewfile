@@ -14,7 +14,6 @@ brew "tree"
 brew "yt-dlp"
 
 # GUI apps
-cask "alfred"
 cask "nikitabobko/tap/aerospace"
 cask "anki"
 cask "brave-browser"
