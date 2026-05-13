@@ -18,4 +18,5 @@ yay -S --needed --noconfirm \
 yay -S --needed --noconfirm \
     render-cli-bin \
     slack-desktop-wayland \
-    clickup
+    clickup \
+    teams-for-linux
