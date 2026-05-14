@@ -1,6 +1,7 @@
 # CLI tools
 brew "git"
 brew "bat"
+brew "btop"
 # Terminal based "The Matrix" like implementation
 brew "cmatrix"
 brew "figlet"
