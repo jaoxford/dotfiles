@@ -1,9 +1,9 @@
 #!/bin/bash
 
-set -e  # Exit on error
+set -e # Exit on error
 
-SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
-DOTFILES_DIR=$( cd -- "$SCRIPT_DIR/.." &> /dev/null && pwd )
+SCRIPT_DIR=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" &>/dev/null && pwd)
+DOTFILES_DIR=$(cd -- "$SCRIPT_DIR/.." &>/dev/null && pwd)
 
 ln -sf "$SCRIPT_DIR/.zprofile" "$HOME/.zprofile"
 ln -sf "$SCRIPT_DIR/.zshrc" "$HOME/.zshrc"
@@ -16,3 +16,4 @@ mkdir -p "$HOME/.gnupg" && ln -sf "$SCRIPT_DIR/.config/gnupg/gpg-agent.conf" "$H
 ln -sf "$DOTFILES_DIR/nvim/options.lua" "$HOME/.config/nvim/lua/config/options.lua"
 ln -sf "$SCRIPT_DIR/.aerospace.toml" "$HOME/.aerospace.toml"
 mkdir -p "$HOME/.config/yazi" && ln -sf "$DOTFILES_DIR/yazi/yazi.toml" "$HOME/.config/yazi/yazi.toml"
+ln -sf "$SCRIPT_DIR/.config/btop/btop.conf" "$HOME/.config/btop/btop.conf"
