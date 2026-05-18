@@ -13,6 +13,7 @@ source /usr/share/cachyos-zsh-config/cachyos-config.zsh
 export PATH="$HOME/.local/bin:$PATH"
 
 alias lg='lazygit'
+alias delete_merged_branches='git branch --merged | grep -Ev "(^\*|master|main|dev|skip_branch_name)" | xargs -r git branch -d'
 alias ss='cmatrix -a -b -s -u 3'
 alias vi='nvim'
 alias vim='nvim'
