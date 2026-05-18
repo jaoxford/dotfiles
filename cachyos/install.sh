@@ -25,6 +25,7 @@ sudo pacman -S --needed --noconfirm \
 
 paru -S --needed --noconfirm \
     brave-origin-beta-bin \
+    cliamp-bin \
     duckstation-qt-bin \
     flycast \
     opendeck-bin \
