@@ -4,6 +4,7 @@ set -e
 
 sudo pacman -S --needed --noconfirm \
     anki \
+    btop \
     cmatrix \
     cachyos-gaming-applications \
     cachyos-gaming-meta \

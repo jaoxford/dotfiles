@@ -15,3 +15,4 @@ ln -sf "$SCRIPT_DIR/applications/stash.desktop" "$HOME/.local/share/applications
 ln -sf "$DOTFILES_DIR/nvim/plugins/colorscheme.lua" "$HOME/.config/nvim/lua/plugins/colorscheme.lua"
 ln -sf "$DOTFILES_DIR/nvim/options.lua" "$HOME/.config/nvim/lua/config/options.lua"
 ln -sf "$DOTFILES_DIR/yazi/yazi.toml" "$HOME/.config/yazi/yazi.toml"
+ln -sf "$DOTFILES_DIR/btop/btop.conf" "$HOME/.config/btop/btop.conf"
