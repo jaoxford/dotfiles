@@ -28,6 +28,7 @@ paru -S --needed --noconfirm \
     cliamp-bin \
     duckstation-qt-bin \
     flycast \
+    nchat \
     opendeck-bin \
     pcsx2-latest-bin \
     stash-bin \
