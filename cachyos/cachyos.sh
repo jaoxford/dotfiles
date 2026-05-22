@@ -13,5 +13,6 @@ DOTFILES_DIR=$( cd -- "$SCRIPT_DIR/.." &> /dev/null && pwd )
 "$DOTFILES_DIR/nvim/install_lazyvim.sh"
 "$SCRIPT_DIR/install_yazi.sh"
 "$SCRIPT_DIR/install_uv.sh"
+"$SCRIPT_DIR/install_dracula_nchat.sh"
 "$SCRIPT_DIR/uninstall.sh"
 "$SCRIPT_DIR/set_defaults.sh"
