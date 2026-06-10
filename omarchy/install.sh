@@ -12,7 +12,8 @@ sudo pacman -S --needed --noconfirm \
     lazydocker
 
 yay -S --needed --noconfirm \
-    helium-browser-bin
+    helium-browser-bin \
+    yaak-bin
 
 # Water Direct AUR packages
 yay -S --needed --noconfirm \
