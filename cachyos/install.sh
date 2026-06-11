@@ -24,7 +24,7 @@ sudo pacman -S --needed --noconfirm \
     zed
 
 paru -S --needed --noconfirm \
-    brave-origin-beta-bin \
+    brave-origin-bin \
     cliamp-bin \
     duckstation-qt-bin \
     flycast \
