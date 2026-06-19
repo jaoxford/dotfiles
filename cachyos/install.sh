@@ -17,6 +17,7 @@ sudo pacman -S --needed --noconfirm \
     kdenlive \
     mame \
     neovim \
+    nicotine+ \
     proton-vpn-gtk-app \
     speedtest-cli \
     strawberry \
