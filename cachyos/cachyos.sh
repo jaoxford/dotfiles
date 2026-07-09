@@ -16,3 +16,13 @@ DOTFILES_DIR=$( cd -- "$SCRIPT_DIR/.." &> /dev/null && pwd )
 "$SCRIPT_DIR/install_dracula_nchat.sh"
 "$SCRIPT_DIR/uninstall.sh"
 "$SCRIPT_DIR/set_defaults.sh"
+
+# Change this from
+# GRUB_GFXMODE=auto
+# to
+# GRUB_GFXMODE=1280x720
+# If keyboard input in GRUB is slow to respond
+# in /etc/default/grub
+# Then you will need to update the grub config with
+# sudo grub-mkconfig -o /boot/grub/grub.cfg
+# Then a sudo reboot
