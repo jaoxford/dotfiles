@@ -19,6 +19,7 @@ sudo pacman -S --needed --noconfirm \
     neovim \
     nicotine+ \
     proton-vpn-gtk-app \
+    qbittorrent \
     speedtest-cli \
     strawberry \
     wl-clipboard \
