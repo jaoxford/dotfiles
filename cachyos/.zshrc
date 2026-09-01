@@ -37,3 +37,9 @@ if [[ -n $SSH_CONNECTION ]]; then
 else
   export EDITOR='nvim'
 fi
+
+function open_port_in_firewall() {
+    sudo ufw allow "$1"/tcp
+    sudo ufw allow "$1"/udp
+    sudo ufw reload
+}
