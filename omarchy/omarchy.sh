@@ -10,4 +10,5 @@ SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 "$SCRIPT_DIR/install_yazi.sh"
 "$SCRIPT_DIR/install_dracula_theme.sh"
 "$SCRIPT_DIR/link.sh"
+"$SCRIPT_DIR/defaults.sh"
 "$SCRIPT_DIR/uninstall.sh"
