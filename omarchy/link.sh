@@ -12,7 +12,7 @@ ln -sf "$SCRIPT_DIR/.bashrc" "$HOME/.bashrc"
 
 ln -sf "$SCRIPT_DIR/.config/hypr/bindings.lua" "$CONFIG_DIR/hypr/bindings.lua"
 ln -sf "$SCRIPT_DIR/.config/hypr/input.lua" "$CONFIG_DIR/hypr/input.lua"
-ln -sf "$SCRIPT_DIR/.config/hypr/monitors.conf" "$CONFIG_DIR/hypr/monitors.conf"
+ln -sf "$SCRIPT_DIR/.config/hypr/monitors.lua" "$CONFIG_DIR/hypr/monitors.lua"
 ln -sf "$SCRIPT_DIR/.config/uwsm/default" "$CONFIG_DIR/uwsm/default"
 ln -sf "$SCRIPT_DIR/.config/omarchy/branding/screensaver.txt" "$CONFIG_DIR/omarchy/branding/screensaver.txt"
 ln -sf "$DOTFILES_DIR/zed/settings.json" "$CONFIG_DIR/zed/settings.json"
