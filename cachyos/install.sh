@@ -4,6 +4,7 @@ set -e
 
 sudo pacman -S --needed --noconfirm \
     anki \
+    brave-origin-bin \
     btop \
     cmatrix \
     cachyos-gaming-applications \
@@ -28,7 +29,6 @@ sudo pacman -S --needed --noconfirm \
     zed
 
 paru -S --needed --noconfirm \
-    brave-origin-bin \
     cliamp-bin \
     duckstation-qt-bin \
     flycast \
