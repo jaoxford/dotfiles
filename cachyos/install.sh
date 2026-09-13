@@ -21,6 +21,7 @@ sudo pacman -S --needed --noconfirm \
     proton-vpn-gtk-app \
     qbittorrent \
     speedtest-cli \
+    spek \
     strawberry \
     wl-clipboard \
     vlc \
