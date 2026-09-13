@@ -23,6 +23,7 @@ sudo pacman -S --needed --noconfirm \
     speedtest-cli \
     strawberry \
     wl-clipboard \
+    vlc \
     zed
 
 paru -S --needed --noconfirm \
