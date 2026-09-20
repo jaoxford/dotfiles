@@ -43,3 +43,10 @@ function open_port_in_firewall() {
     sudo ufw allow "$1"/udp
     sudo ufw reload
 }
+
+# Used for sites such as NHK.
+function download_and_join_separate_video_and_audio() {
+    cd "$HOME/Downloads"
+    yt-dlp -o "video.mp4" "$1" && yt-dlp -o "audio.mp4" "$2" && ffmpeg -i "video.mp4" -i "audio.mp4" -c copy "$3" && rm "video.mp4" && rm "audio.mp4"
+    cd -
+}
