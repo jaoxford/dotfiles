@@ -4,6 +4,7 @@ set -e
 
 sudo pacman -S --needed --noconfirm \
     anki \
+    bitwarden \
     brave-origin-bin \
     btop \
     cmatrix \
