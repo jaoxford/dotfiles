@@ -19,6 +19,7 @@ sudo pacman -S --needed --noconfirm \
     mame \
     neovim \
     nicotine+ \
+    onlyoffice-bin \
     proton-vpn-gtk-app \
     qbittorrent \
     speedtest-cli \
