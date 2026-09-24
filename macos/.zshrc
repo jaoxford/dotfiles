@@ -39,6 +39,11 @@ create_commented_banner_for_windows() {
   echo "::"
 }
 
+# Kills what is holding port 5432 when Docker Desktop's Postgres fails to start.
+fix_stuck_postgres() {
+  sudo lsof -ti :5432 | xargs sudo kill -9
+}
+
 # https://yazi-rs.github.io/docs/quick-start/#shell-wrapper
 # We suggest using this y shell wrapper that provides the ability to change the current working directory when exiting Yazi.
 function y() {
