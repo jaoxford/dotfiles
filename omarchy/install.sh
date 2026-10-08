@@ -12,6 +12,7 @@ sudo pacman -S --needed --noconfirm \
 
 yay -S --needed --noconfirm \
     helium-browser-bin \
+    nchat \
     yaak-bin
 
 # Water Direct AUR packages
