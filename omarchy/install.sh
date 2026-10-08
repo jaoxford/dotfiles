@@ -20,5 +20,4 @@ yay -S --needed --noconfirm \
     render-cli-bin \
     slack-desktop-wayland \
     clickup \
-    pycharm \
-    teams-for-linux
+    pycharm
